@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Obrigado!! | Cor e Beleza Pura </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<style>
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+    }
+.container-de-obrigado{
+
+display: flex;
+
+min-height: 100vh;
+
+overflow: hidden;
+
+
+align-items: center;
+justify-items: center;
+justify-content: center;
+
+
+
+
+background: linear-gradient(45deg, #FF69B4, #4a1353, #FFC0CB);
+background-size: 400% 400%;
+animation: gradientAnimation 15s infinite;
+}
+
+@keyframes gradientAnimation {
+0% {
+    background-position: 0% 0%;
+}
+50% {
+    background-position: 100% 0%;
+}
+100% {
+    background-position: 0% 0%;
+}
+}
+
+.bloco-container{
+
+display: flex;
+
+align-items: center;
+justify-content: center;
+
+flex-direction: column;
+
+padding: 40px 55px;
+
+background-color: #1d1d2e;
+
+border-radius: 18px;
+
+width: 500px;
+
+
+color: #FF69B4;
+
+text-align: center;
+
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+.bloco-container strong h6{
+margin-bottom: 10%;
+}
+form input:focus{
+transition: all 0.1s;
+border-radius: 16px;
+}
+
+.retorne-menu{
+padding: 15px 20px 15px 20px;
+
+background-color: #4a1353;
+
+border: #FF69B4;
+
+border-radius: 2%;
+}
+
+
+.btn-retorne-menu{
+text-decoration: none;
+padding: 25px;
+}
+
+.retorne-menu:hover{
+background-color: #FF69B4;
+border: none;
+
+border-radius: 16px;
+
+transition: all 0.5s;
+}
+</style>
+
+    <div class="container-de-obrigado">
+        <div class="bloco-container">
+
+            <strong>
+                <p><h4>Muito Obrigado pela Mensagem!!</h4></p>
+                <p><h6>entraremos em contato o mais rapido possivel!!</h6></p>
+
+                <button class="retorne-menu"><a class="btn-retorne-menu" href="https://corebelezapura.netlify.app">Voltar para o <span style="text-decoration: underline;">Inicio</span></a></button>
+            </strong>
+
+        </div>
+    </div>
+</body>
+
+</html>
